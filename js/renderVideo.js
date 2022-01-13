@@ -20,6 +20,7 @@ function firstRender (data){
 
 const renderVideo = async()=>{
    const data = await getTrands();
+  console.log(data.results);
   
    firstRender (data.results[0]);
    
